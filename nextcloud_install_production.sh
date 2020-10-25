@@ -199,7 +199,7 @@ fi
 
 # Check if it's a clean server
 stop_if_installed nginx
-stop_if_installed php
+#stop_if_installed php
 #stop_if_installed php-fpm
 #stop_if_installed php"$PHPVER"-fpm
 #stop_if_installed php7.0-fpm
