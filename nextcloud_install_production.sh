@@ -198,7 +198,6 @@ then
 fi
 
 # Check if it's a clean server
-stop_if_installed apache2
 stop_if_installed nginx
 stop_if_installed php
 stop_if_installed php-fpm
