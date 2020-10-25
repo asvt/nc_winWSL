@@ -200,12 +200,12 @@ fi
 # Check if it's a clean server
 stop_if_installed nginx
 stop_if_installed php
-stop_if_installed php-fpm
-stop_if_installed php"$PHPVER"-fpm
-stop_if_installed php7.0-fpm
-stop_if_installed php7.1-fpm
-stop_if_installed php7.2-fpm
-stop_if_installed php7.3-fpm
+#stop_if_installed php-fpm
+#stop_if_installed php"$PHPVER"-fpm
+#stop_if_installed php7.0-fpm
+#stop_if_installed php7.1-fpm
+#stop_if_installed php7.2-fpm
+#stop_if_installed php7.3-fpm
 stop_if_installed mysql-common
 stop_if_installed mariadb-server
 
